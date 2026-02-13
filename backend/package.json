@@ -1,0 +1,33 @@
+{
+  "name": "agent-x-backend",
+  "version": "0.1.0",
+  "description": "AGENT X Marketplace API",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "@prisma/client": "^6.0.0",
+    "zod": "^3.23.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.0",
+    "ioredis": "^5.4.0",
+    "ethers": "^6.13.0",
+    "@x402/protocol": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/bcryptjs": "^2.4.0",
+    "prisma": "^6.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
