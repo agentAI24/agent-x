@@ -1,0 +1,2 @@
+@echo off
+curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AQ.Ab8RN6JdURBB5rjmVLMII4BMPA9bsjOe-jC9TAzteXPIJrnNiw" -H "Content-Type: application/json" -X POST -d "{\"contents\":[{\"parts\":[{\"text\":\"Привет! Это тест API ключа. Ответь коротко.\"}]}]}"
