@@ -12,22 +12,30 @@
     "db:generate": "prisma generate"
   },
   "dependencies": {
-    "fastify": "^5.0.0",
+    "@fastify/autoload": "^6.3.1",
+    "@fastify/cors": "^11.2.0",
     "@prisma/client": "^6.0.0",
-    "zod": "^3.23.0",
-    "jsonwebtoken": "^9.0.0",
     "bcryptjs": "^2.4.0",
-    "ioredis": "^5.4.0",
     "ethers": "^6.13.0",
-    "@x402/protocol": "latest"
+    "fastify": "^5.0.0",
+    "ioredis": "^5.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "zod": "^3.23.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/jsonwebtoken": "^9.0.0",
     "@types/bcryptjs": "^2.4.0",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/node": "^22.19.11",
     "prisma": "^6.0.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.5.0",
-    "vitest": "^2.0.0"
-  }
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
